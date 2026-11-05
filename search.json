@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A website with interactive lecture notes for courses I teach at MIPT’s School of Applied Mathematics and Computer Science.\nVisit en.fpmi-courses.ru →"
+  },
+  {
+    "objectID": "projects.html#en.fpmi-courses.ru",
+    "href": "projects.html#en.fpmi-courses.ru",
+    "title": "Projects",
+    "section": "",
+    "text": "A website with interactive lecture notes for courses I teach at MIPT’s School of Applied Mathematics and Computer Science.\nVisit en.fpmi-courses.ru →"
+  },
+  {
+    "objectID": "projects.html#mathprobvault.com",
+    "href": "projects.html#mathprobvault.com",
+    "title": "Projects",
+    "section": "mathprobvault.com",
+    "text": "mathprobvault.com\nA web application (Next.js, Docker) that maintains a single LaTeX-format database of mathematics problems. It serves two purposes: assembling tests and exams from a problem bank with automatic LaTeX generation, and archiving my own worked solutions to exercises from classical textbooks such as Axler’s Linear Algebra Done Right and Measure, Integration & Real Analysis and Grimmett & Stirzaker’s Probability and Random Processes, etc.\nVisit mathprobvault.com →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I am a data analyst and a lecturer in mathematics. Since 2019 I have taught at the university level while working in parallel in retail analytics; my background is in probability theory.\nI studied at the Faculty of Mechanics and Mathematics of Lomonosov Moscow State University (2013–2019), Department of Probability Theory. My diploma thesis, Martingale couplings with prescribed properties and the Skorokhod embedding problem, was written under the supervision of Alexander Gushchin.\nSince 2019 I have taught continuously at the university level while working in parallel as a data analyst. My interests span measure-theoretic probability, martingales and optimal transport, sequential analysis, and the design of interactive mathematical visualisations for teaching."
+  },
+  {
+    "objectID": "about.html#teaching",
+    "href": "about.html#teaching",
+    "title": "About me",
+    "section": "Teaching",
+    "text": "Teaching\nI have taught continuously since 2019, at present as a Lecturer and course author at MIPT’s School of Applied Mathematics and Computer Science and at Central University. Courses are listed most recent first; the level (BSc/MSc) and the language of instruction are given for each.\n\nProbability theory (BSc, in Russian) — Central University, 2025–present.\nMathematical statistics (BSc, in Russian) — Central University, 2025–present.\nFunctional analysis (BSc, in Russian) — MIPT, 2025–2026.\nComplex analysis (BSc, in Russian) — MIPT, 2025–2026.\nDiscrete mathematics: graphs, combinatorics, foundations of logic (BSc, in Russian) — MIPT, 2025–2026.\nApproximation algorithms (MSc, in Russian and English) — MIPT, 2024–2026.\nComputability theory (BSc, in Russian) — MIPT, 2024–2026.\nComputational complexity (BSc, in Russian) — MIPT, 2024–2026.\nProbability theory (BSc, in Russian and English) — MIPT, 2021–present.\nMathematical statistics (BSc, in Russian and English) — MIPT, 2021–present.\nRandom processes (BSc, in Russian) — MIPT, 2021–present.\nMeasure theory (BSc, in Russian) — MIPT, 2021–present.\nLinear algebra (BSc, in Russian) — MIPT, 2023–2024.\nAnalytic geometry (BSc, in Russian) — MIPT, 2023–2024.\nMathematical analysis (BSc, in Russian) — MIPT, 2022–2024.\nPracticum in mathematical statistics (BSc, in Russian) — Lomonosov Moscow State University, Faculty of Biology, 2020–2023.\n\nI write my own teaching materials — lecture notes, problem sets, and exam questions. The notes for these courses are published openly as en.fpmi-courses.ru."
+  },
+  {
+    "objectID": "about.html#research",
+    "href": "about.html#research",
+    "title": "About me",
+    "section": "Research",
+    "text": "Research\nMy thesis develops the machinery of integrated distribution and quantile functions and applies it in three directions: a short alternative proof of the martingale convergence theorem and of Prokhorov’s theorem via uniform convergence of integrated quantile functions; an explicit martingale coupling minimising the martingale Wasserstein distance between two one-dimensional distributions, with the sharp constant in the inequality \\(MW_1(\\mu,\\nu) \\le 2\\,W_1(\\mu,\\nu)\\); and an explicit embedding of this coupling into Brownian motion by two constructed stopping times, as a special case of the Skorokhod embedding problem.\nThis line of work continued after graduation in joint work with Alexander Gushchin:\n\nGushchin, A. A. and Nedoshivin, M. A. (2022). On Perkins’ construction in the Skorokhod embedding problem. Talk at the 7th International Conference on Stochastic Methods (ICSM-7), Divnomorskoe, Russia. Abstract published in Theory of Probability and Its Applications, 67(4), 2023, pp. 662–663. DOI: 10.1137/S0040585X97T991210"
+  },
+  {
+    "objectID": "about.html#applied-work",
+    "href": "about.html#applied-work",
+    "title": "About me",
+    "section": "Applied work",
+    "text": "Applied work\nSince 2019 I have worked as a data analyst for the Azbuka Vkusa retail chain (from 2022 through its subsidiary AV Infotech). My day-to-day work centres on demand forecasting — including perishable categories and network-wide forecasts for the New Year peak season — seasonality and trend decomposition using Fourier analysis, and inventory data reconciliation. Alongside this, I’ve led a number of self-directed analytics and data-engineering projects:\n\nOn-shelf availability detection — a daily pilot comparing three independent detectors (a method-of-moments heuristic, a CUSUM detector in T-SQL window functions, and Bayesian online changepoint detection in Python) to flag items that are in stock on paper but have stopped selling.\nOptimal order / replenishment policies for perishables — a Monte Carlo simulator comparing the current auto-ordering logic against alternative replenishment policies, balancing availability against write-offs.\nProduct classifier refinement and substitution analysis — merging item classifiers from source systems and measuring which product attributes shoppers actually look for when a substitute is needed.\nCensored demand reconstruction — an EM-based prototype recovering true demand for SKUs whose sales are capped by stockouts.\nStore clustering — grouping stores by shelf capacity and demand profile to inform assortment planning.\nGeodata and location potential modelling — combining OpenStreetMap, routing, and population data to model revenue potential for new store locations.\nOCR/MDM extraction — a working prototype that extracts structured product attributes (name, brand, weight, barcode, etc.) from label photos using vision-LLMs.\nPersonalised recommendations — a product concept and business case for a recommendation feature, not yet a built system.\nTemperature-demand elasticity and a public holiday calendar ETL used as a shared input across forecasting projects.\n\nTools: T-SQL (SQL Server), Python, Quarto, JavaScript (D3.js, Plotly.js, Canvas), Next.js/React, Docker, LaTeX."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About me",
+    "section": "Contact",
+    "text": "Contact\nEmail: mishiv96@gmail.com"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mikhail Nedoshivin",
+    "section": "",
+    "text": "Hello! My name is Mikhail Nedoshivin. Email: mishiv96@gmail.com\nI currently work at:\n\nAzbuka Tech (AV Infotech) — Senior Data Analyst\nMIPT, School of Applied Mathematics and Computer Science — Lecturer, course author\nCentral University — Lecturer, course author\n\nProjects:\n\nen.fpmi-courses.ru: MIPT course materials\nmathprobvault.com: a math problem bank"
+  },
+  {
+    "objectID": "projects.html#exiniz.ru",
+    "href": "projects.html#exiniz.ru",
+    "title": "Projects",
+    "section": "exiniz.ru",
+    "text": "exiniz.ru\nAn online publishing house digitising rare 19th–20th-century books, preserving the original’s footnotes, annotations, and references to mentioned persons. The site itself is in Russian.\nVisit exiniz.ru →"
+  }
+]
